@@ -1,0 +1,50 @@
+/* adminContact.css */
+
+section {
+    margin: 2rem;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: large;
+  }
+  
+  td {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: medium;
+  }
+  
+  .adminbtn{
+      height: 35px;
+      width: 30px;
+      background-color: red;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: large;
+  }
+  
+  .adminbtn:hover {
+    border: 2px solid white;
+  }
+  
+  /* Add additional styles as needed */
+  
